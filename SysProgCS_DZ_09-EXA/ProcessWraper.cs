@@ -43,3 +43,4 @@ internal class ProcessWraper
 
     public override string ToString() => $"{name} ({Id})";
 }
+
