@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>SysProgCS_DZ_09_EXA</RootNamespace>
+    <AssemblyName>SysProgCS_DZ_09-EXA</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="blacklist.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="settings.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
